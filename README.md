@@ -78,13 +78,13 @@ nse.get_quote('RELIANCE')
 for futures
 
 ```python
-nse.get_quote('TCS', segment=Segment.FUT, expiry=dt.date( 2020, 6, 30 ))
+nse.get_quote('TCS', segment=Segment.FUT, expiry=dt.date( 2022, 5, 26 ))
 ```
 
 for options
 
 ```python
-nse.get_quote('HDFC', segment=Segment.OPT, optionType=OptionType.PE, strike=1800.)
+nse.get_quote('HDFC', segment=Segment.OPT, optionType=OptionType.PE, strike=2200.)
 ```
 
 ### Bhavcopy for Cash
@@ -100,7 +100,7 @@ nse.bhavcopy()
 or
 
 ```python
-nse.bhavcopy(dt.date(2020,6,17))
+nse.bhavcopy(dt.date(2022,5,6))
 ```
 
 ### Bhavcopy for F&O
@@ -116,7 +116,7 @@ nse.bhavcopy_fno()
 or
 
 ```python
-nse.bhavcopy_fno(dt.date(2020,6,17))
+nse.bhavcopy_fno(dt.date(2022,5,6))
 ```
 
 ### Pre Open data
@@ -138,7 +138,7 @@ nse.option_chain('INFY')
 or
 
 ```python
-nse.option_chain('INFY',expiry=dt.date(2020,6,30))
+nse.option_chain('INFY',expiry=dt.date(2022,5,26))
 ```
 
 ### FII and DII Data
@@ -161,7 +161,7 @@ nse.get_hist('SBIN')
 or
 
 ```python
-nse.get_hist('NIFTY 50', from_date=dt.date(2020,1,1),to_date=dt.date(2020,6,26))
+nse.get_hist('NIFTY 50', from_date=dt.date(2022,1,1),to_date=dt.date(2022,5,6))
 ```
 
 ### Realtime Index
