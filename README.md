@@ -22,7 +22,7 @@ Bhavcopy & Option Chain Analysis
 This module is installed via pip:
 
 ```
-pip install --upgrade git+https://github.com/StreamAlpha/pynse.git
+pip install --upgrade git+https://github.com/Aniruddha1980/Pynse.git
 ```
 
 ### Prerequisites
